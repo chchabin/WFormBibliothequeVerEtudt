@@ -123,7 +123,7 @@ namespace WFormBibliotheque
            * Lorsque vous choisissez un genre, la listbox1 se charge des auteurs qui ont publié des livres de ce genre
            */
         }
+        #endregion 
     }
-        #endregion
-    }
+       
 }
