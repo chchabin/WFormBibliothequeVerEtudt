@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using libBibliotheque;
 
-namespace WFormBibliotheque
+namespace WFormBibliothequeVerEtudt
 {
     public partial class Form1 : Form
     {
@@ -56,7 +56,7 @@ namespace WFormBibliotheque
         private void chargerGenre()
         {
             int i = 0;
-                // boucle pour charger les genre dans le combobox
+            // boucle pour charger les genre dans le combobox
         }
         #endregion
         #region Gestion des évènements
@@ -85,7 +85,7 @@ namespace WFormBibliotheque
              * Lorsque vous cliquez sur un auteur la liste de ses livres apparait dans le listbox2
              */
 
-            
+
 
         }
 
@@ -123,7 +123,8 @@ namespace WFormBibliotheque
            * Lorsque vous choisissez un genre, la listbox1 se charge des auteurs qui ont publié des livres de ce genre
            */
         }
+#endregion
     }
-        #endregion
-    }
+    
 }
+

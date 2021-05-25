@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>libBibliotheque</name>
+    </assembly>
+    <members>
+        <member name="M:libBibliotheque.Bibliotheque.getInstance">
+            <summary>
+            Retourne un objet de type Bibliotheque
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:libBibliotheque.Bibliotheque.ajouterLivre(System.String,System.String,System.Int32,System.String)">
+            <summary>
+            Ajoute un livre à la bibliotheque dont les données sont passées en paramètre
+            </summary>
+            <param name="titre"></param>
+            <param name="genre"></param>
+            <param name="anneeSortie"></param>
+            <param name="nomAuteur"></param>
+        </member>
+        <member name="M:libBibliotheque.Bibliotheque.getLivre(System.Int32)">
+            <summary>
+            Retourne le i ième livre de la bibliothèque
+            </summary>
+            <param name="i"></param>
+            <returns></returns>
+        </member>
+        <member name="M:libBibliotheque.Bibliotheque.getLivre(System.String)">
+            <summary>
+            Retourne le livre dont le titre est passé en paramètre 
+            </summary>
+            <param name="titre"></param>
+            <returns></returns>
+        </member>
+        <member name="M:libBibliotheque.Bibliotheque.supprimerLivre(System.String)">
+            <summary>
+            Supprime le livre dont le titre est passé en paramètre
+            </summary>
+            <param name="titre"></param>
+        </member>
+        <member name="M:libBibliotheque.Bibliotheque.nbLivres">
+            <summary>
+            Retourne le nombre de livres de la bibliothèque
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:libBibliotheque.Bibliotheque.nbAuteurs">
+            <summary>
+            Retourne le nombre d'auteurs de la bibliothèque
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:libBibliotheque.Bibliotheque.getAuteur(System.String)">
+            <summary>
+            Retourne l'auteur dont le nom est passé en paramètre
+            </summary>
+            <param name="nom"></param>
+            <returns></returns>
+        </member>
+        <member name="M:libBibliotheque.Bibliotheque.getAuteur(System.Int32)">
+            <summary>
+            Retourne le i ième auteur de la bibliothèque
+            </summary>
+            <param name="i"></param>
+            <returns></returns>
+        </member>
+        <member name="M:libBibliotheque.Auteur.getInstance(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Retourne une instance d'Auteur
+            </summary>
+            <param name="nom"></param>
+            <param name="prenom"></param>
+            <param name="anneeNaissance"></param>
+            <param name="anneeDeces"></param>
+            <returns></returns>
+        </member>
+        <member name="M:libBibliotheque.Auteur.getNom">
+            <summary>
+            retourne le nom de l'auteur
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:libBibliotheque.Auteur.getAnneeNaissance">
+            <summary>
+            Retourne la date de naissance de l'auteur
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:libBibliotheque.Auteur.getAnneeDeces">
+            <summary>
+            Retourne la date de décès de l'auteur
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:libBibliotheque.Auteur.ToString">
+            <summary>
+            Retourne la répresentation de l'objet sous forme d'une chaîne de caractères
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:libBibliotheque.Livre.getInstance(System.String,System.String,System.Int32,libBibliotheque.Auteur)">
+            <summary>
+            retourne une instance d'un objet Livre
+            </summary>
+            <param name="titre"></param>
+            <param name="genre"></param>
+            <param name="anneeSortie"></param>
+            <param name="auteur"></param>
+            <returns></returns>
+        </member>
+        <member name="M:libBibliotheque.Livre.getTitre">
+            <summary>
+            Retourne le titre du livre
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:libBibliotheque.Livre.getAuteur">
+            <summary>
+            Retourne un objet Auteur, auteur du livre
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:libBibliotheque.Livre.getGenre">
+            <summary>
+            Retourne le genre du livre
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:libBibliotheque.Livre.getAnneeSortie">
+            <summary>
+            Retourne l'année de sortie du livre
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:libBibliotheque.Livre.ToString">
+            <summary>
+            Retourne la réprésentation de l'objet sous forme d'une chaîne de caractères 
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,5 +1,5 @@
 ﻿
-namespace WFormBibliotheque
+namespace WFormBibliothequeVerEtudt
 {
     partial class Form1
     {
